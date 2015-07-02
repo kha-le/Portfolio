@@ -1,25 +1,25 @@
 ## Synopsis
 
-This project sets out to create a Band Tracking tool. The following Ruby Gems were used.
+This project sets out to create a portfolio site. The following Ruby Gems were used.
 
 
 
-gem 'rails'
-gem 'pg'
-gem 'bootstrap-sass', '~> 3.3.5'
-gem 'sass-rails'
-gem 'uglifier'
-gem 'coffee-rails'
-gem 'jquery-rails'
-gem 'turbolinks'
-gem 'sqlite3'
-gem 'byebug'
-gem 'web-console'
-gem 'spring'
-gem 'quiet_assets'
-gem 'rspec-rails'
-gem 'launchy'
-gem 'capybara'
+-gem 'rails'
+-gem 'pg'
+-gem 'bootstrap-sass', '~> 3.3.5'
+-gem 'sass-rails'
+-gem 'uglifier'
+-gem 'coffee-rails'
+-gem 'jquery-rails'
+-gem 'turbolinks'
+-gem 'sqlite3'
+-gem 'byebug'
+-gem 'web-console'
+-gem 'spring'
+-gem 'quiet_assets'
+-gem 'rspec-rails'
+-gem 'launchy'
+-gem 'capybara'
 
 
 ## Motivation
