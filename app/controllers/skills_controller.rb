@@ -17,10 +17,16 @@ class SkillsController < ApplicationController
    end
  end
 
+ def show
+   @skill = Skill.find(params[:id])
+    redirect_to @skill.url
+ end
+
+
  def destroy
    @skill = Skill.find(params[:id])
    @skill.destroy
-   redirect_to posts_path
+   redirect_to skills_path
  end
 
  def edit
