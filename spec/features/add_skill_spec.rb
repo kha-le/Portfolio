@@ -30,7 +30,7 @@ describe "the add new skill process" do
   it "gives error when no description is entered" do
     visit new_skill_path
     fill_in 'Name', :with => 'Javascript'
-    fill_in 'Url', :with => 'https://www.learnhowtoprogram.com'
+    f ill_in 'Url', :with => 'https://www.learnhowtoprogram.com'
     click_on 'Create Skill'
     expect(page).to have_content "Description can't be blank"
   end
