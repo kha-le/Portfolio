@@ -1,1 +1,16 @@
-It worked
+<h3>Development Skills</h3>
+
+<% @skills.each do |skill| %>
+
+  <ul>
+    <li><%= link_to skill.name, skill_path(skill) %>
+
+         <div class="below-post">
+         <%= link_to "Edit", edit_skill_path(skill.id) %>  |
+         <%= link_to "Delete", skill_path(skill.id), :data => {:confirm => "are you really really sure?", :method => "delete"} %>
+        </div>
+
+    </li>
+  </ul>
+
+<% end %>

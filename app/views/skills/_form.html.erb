@@ -1,0 +1,17 @@
+<%= render "layouts/errors", :object => @skill %>
+
+<%= form_for @skill do |f| %>
+  <%= f.label :name %>:
+  <br>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :url %>:
+  <br>
+  <%= f.text_field :url %>
+  <br>
+  <%= f.label :description %>:
+  <br>
+  <%= f.text_field :description %>
+  <hr>
+  <%= f.submit %>
+<% end %>
