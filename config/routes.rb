@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-    resources :skills
+  root to: 'skills#index'
+
+    resources :skills do
+      resources :comments
+  end
 end
