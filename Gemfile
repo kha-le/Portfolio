@@ -9,6 +9,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'sqlite3'
+gem 'devise'
 
 group :development do
   gem 'byebug'
@@ -26,4 +27,6 @@ end
 group :test do
   gem 'shoulda-matchers'
   gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'simplecov', require: false
 end

@@ -1,6 +1,6 @@
 <%= render "layouts/errors", :object => @comment %>
 
-<%= form_for @comment do |f| %>
+<%= form_for [@skill, @comment] do |f| %>
   <%= f.label :author %>:
   <br>
   <%= f.text_field :author %>
