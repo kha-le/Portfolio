@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'sqlite3'
 gem 'devise'
+gem 'rails_12factor', group: :production
 
 group :development do
   gem 'byebug'
@@ -22,6 +23,7 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'launchy'
   gem 'capybara'
+  gem 'simplecov', require: false
 end
 
 group :test do

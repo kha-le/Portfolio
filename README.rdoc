@@ -1,3 +1,6 @@
+## Could not get running on heroku
+
+
 ## Synopsis
 
 This project sets out to create a portfolio site. The following Ruby Gems were used.
