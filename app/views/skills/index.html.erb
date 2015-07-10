@@ -18,7 +18,8 @@
 
         <% else %>
 
-        <%= link_to "Comments", skill_comments_path(skill.id) %>
+        <%= link_to "Comments", skill_comments_path(skill.id) %> |
+        <%= link_to "Github", skill_path(skill.id) %>
 
         <% end %>
 
