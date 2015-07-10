@@ -11,13 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150710171103) do
+ActiveRecord::Schema.define(version: 20150710171728) do
 
   create_table "comments", force: :cascade do |t|
     t.string   "author"
     t.string   "body"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "skill_id"
   end
 
   create_table "skills", force: :cascade do |t|
